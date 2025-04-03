@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,21 +14,21 @@
 
     <header class="bg-[#1B1B1B] h-[70px] w-[1400px] place-content-center place-self-center rounded-b-lg fixed top-0 left-40">
         <div class="flex justify-start gap-x-36 text-[#9C9C9C] whitespace-nowrap font-bold text-sm items-center  ml-10">
-            <button class="ml-20 relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+            <a href="#home" class="ml-20 relative cursor-pointer after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
                 Home
-            </button>
-            <button class="relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+            </a>
+            <a href="#about" class="relative cursor-pointer  after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
                 About me
-            </button>
-            <button class="relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+            </a>
+            <a href="#services" class="relative cursor-pointer after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
                 Services
-            </button>
-            <button class="relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+            </a>
+            <a href="#work" class="relative cursor-pointer after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
                 Recent work
-            </button>
-            <button class="relative after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+            </a>
+            <a href="#contact" class="relative cursor-pointer after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
                 Contact
-            </button>
+            </a>
             <div class="flex gap-x-5  h-10 w-40 items-center">
 
                 <a href="https://www.linkedin.com/in/farahbakhsh/" target="_blank" class="fa-brands fa-linkedin text-xl cursor-pointer"></a>
@@ -39,32 +39,33 @@
             </div>
         </div>
     </header>
-    <main class="h-[350px] font-Roboto w-[1160px] mt-40 flex place-self-center  justify-between flex-wrap  items-center text-white">
+    <main id="home" class="font-Roboto w-[1160px] pt-40 flex place-self-center h-screen justify-between flex-wrap  items-center text-white">
         <div>
             <h1 class="text-4xl whitespace-nowrap font-bold ">MohammadKazem FarahBakhsh</h1>
             <p class="max-w-lg mt-5 text-base text-[#9C9C9C]">I’m a creative and social person who enjoys teamwork and quickly understands new concepts. I’m working on programming, learning new languages, and improving my time management skills. Besides technology, I’m also interested in cooking and music, and I get energy from social interactions.</p>
         </div>
         <img class="w-[416px] h-[420px] rounded-full" src="../img/photo_2025-03-01 18.30.47.jpeg">
         <button id="mybutton" class="text-white place-self-center mt-[-110px] w-[307.89px] h-[63px]  rounded-sm bg-[#3F8E00] font-bold hover:opacity-75">Click For No Reason</button>
-    </main>
-    <section class=" mt-48 w-[1400px] h-[60px] place-self-center min-h-[80vh]">
-        <h6 class="text-white ml-[123px] block">worked with</h6>
-        <div class="flex justify-center gap-x-[50px] mt-10">
-            <button class="border border-gray-500 text-[#9C9C9C] hover:opacity-50 rounded-lg font-bold px-6 py-3">Tailwind CSS </button>
-            <button class="border border-gray-500 text-[#9C9C9C] hover:opacity-50 rounded-lg font-bold px-6 py-3">Web Development </button>
-            <button class="border border-gray-500 text-[#9C9C9C] hover:opacity-50 rounded-lg font-bold px-6 py-3">Responsive Design</button>
-            <button class="border border-gray-500 text-[#9C9C9C] hover:opacity-50 rounded-lg font-bold px-6 py-3">UI/UX Basics</button>
-            <button class="border border-gray-500 text-[#9C9C9C] hover:opacity-50 rounded-lg font-bold px-6 py-3">JavaScript</button>
+        <div class="mt-20 w-[1400px] h-[60px] min-h-[80vh]">
+            <h6 class="text-white ml-[123px] block">worked with</h6>
+            <div class="flex justify-center gap-x-[50px] mt-10">
+                <button class="border border-gray-500 text-[#9C9C9C] hover:opacity-50 rounded-lg font-bold px-6 py-3">Tailwind CSS </button>
+                <button class="border border-gray-500 text-[#9C9C9C] hover:opacity-50 rounded-lg font-bold px-6 py-3">Web Development </button>
+                <button class="border border-gray-500 text-[#9C9C9C] hover:opacity-50 rounded-lg font-bold px-6 py-3">Responsive Design</button>
+                <button class="border border-gray-500 text-[#9C9C9C] hover:opacity-50 rounded-lg font-bold px-6 py-3">UI/UX Basics</button>
+                <button class="border border-gray-500 text-[#9C9C9C] hover:opacity-50 rounded-lg font-bold px-6 py-3">JavaScript</button>
+            </div>
         </div>
-    </section>
-    <section class="w-[1400px] flex flex-col md:flex-row justify-between place-self-center min-h-[80vh]">
-            <img class=" ml-10  mb-32  rounded-full" src="../img/photo_2025-01-13 13.28.10.jpeg">
+    </main>
+
+    <section id="about" class="w-[1400px] flex flex-col items-center h-screen md:flex-row justify-between place-self-center">
+            <img class=" ml-10 w-[500px] h-[500px] rounded-full" src="../img/photo_2025-01-13 13.28.10.jpeg">
             <div class="max-w-lg">
                 <h1 class="font-bold text-white text-2xl ml-40 mb-5 items-center">About me</h1>
                 <p class="text-white text-lg leading-[40px]">Hi, My name is MohammadKazem Farahbakhsh. I'm from Iran, and I'm a programmer. Currently, I'm studying at Azad University of Lahijan. I'm passionate about exploring new technologies and expanding my skills in design, working with Photoshop and Illustrator. I also have a deep interest in concept art and enjoy staying active through sports. Additionally, I’m advancing my language skills to a professional level while always looking for ways to improve. </p>
             </div>
     </section>
-    <section class="flex w-[1400px] flex-col place-content-center h-screen ">
+    <section id="services" class="flex w-[1400px] flex-col place-content-center h-screen ">
         <h1 class="text-white text-5xl relative -z-10 left-52 top-[-200px]">My Services</h1>
         <div class="flex whitespace-nowrap gap-40 place-content-center font-2">
             <div class="text-white ml-48 w-80 bg-[#1B1B1B] p-10 rounded-sm hover:shadow-lg hover:shadow-[#3F8E00] transition duration-300 ease-in-out">
@@ -96,13 +97,13 @@
             </div>
         </div>
     </section>
-    <section class="py-10 text-center h-screen place-content-center">
+    <section id="work" class="py-10 text-center h-screen place-content-center">
         <p class="text-gray-500 mb-4">در حال کار روی پروژه‌های جدید هستم. به زودی آپدیت می‌کنم!</p>
         <button class="px-6 py-2 bg-[#3F8E00] text-white rounded-lg hover:opacity-80 transition">
           Coming Soon...
         </button>
       </section>
-      <footer class="h-screen place-content-center flex items-center">
+      <footer id="contact" class="h-screen place-content-center flex items-center">
         <div class="grid w-10 h-10 gap-x-10 gap-y-5 absolute -z-10 left-48">
         <h1 class="text-white font-bold text-5xl whitespace-nowrap mb-10">Contact Me</h1>
         <div class="flex items-center">
@@ -115,10 +116,10 @@
         </div>
         </div>
         <div class="grid gap-10 h-10 absolute left-[700px] mb-80">
-            <input class="w-[800px] text-white bg-[#1B1B1B] rounded-sm p-5" placeholder="Your Name" type="text">
-            <input class="w-[800px] text-white bg-[#1B1B1B] rounded-sm p-5" placeholder="Your Email" type="text">
-            <input class="w-[800px] text-white bg-[#1B1B1B] rounded-sm pt-5 pl-5 pr-5 pb-60" placeholder="Your Message" type="text">
-            <button class="bg-[#3F8E00] rounded-sm text-white w-36 h-10 items-center hover:opacity-65">Submit</button>
+            <input type="text" id="name" class="w-[800px] text-white bg-[#1B1B1B] rounded-sm p-5" placeholder="Your Name" type="text">
+            <input type="email" id="email" class="w-[800px] text-white bg-[#1B1B1B] rounded-sm p-5" placeholder="Your Email" type="text">
+            <input id="message" class="w-[800px] text-white bg-[#1B1B1B] rounded-sm pt-5 pl-5 pr-5 pb-60" placeholder="Your Message" type="text">
+            <button id="subject-btn" class="bg-[#3F8E00] rounded-sm text-white w-36 h-10 items-center hover:opacity-65">Submit</button>
 
         </div>
       </footer>

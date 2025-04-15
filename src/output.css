@@ -663,16 +663,16 @@ video {
   inset-inline-end: 0.25rem;
 }
 
+.left-0 {
+  left: 0px;
+}
+
 .left-44 {
   left: 11rem;
 }
 
 .left-48 {
   left: 12rem;
-}
-
-.left-52 {
-  left: 13rem;
 }
 
 .left-60 {
@@ -683,8 +683,8 @@ video {
   left: 700px;
 }
 
-.right-52 {
-  right: 13rem;
+.right-0 {
+  right: 0px;
 }
 
 .top-0 {
@@ -779,8 +779,8 @@ video {
   margin-left: 2.5rem;
 }
 
-.ml-20 {
-  margin-left: 5rem;
+.ml-16 {
+  margin-left: 4rem;
 }
 
 .ml-40 {
@@ -930,6 +930,10 @@ video {
   height: 63px;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .min-h-\[70px\] {
   min-height: 70px;
 }
@@ -980,6 +984,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.min-w-\[500px\] {
+  min-width: 500px;
 }
 
 .max-w-40 {
@@ -2919,8 +2927,8 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:gap-44 {
-    gap: 11rem;
+  .sm\:gap-5 {
+    gap: 1.25rem;
   }
 
   .sm\:underline {
@@ -2929,8 +2937,20 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:left-52 {
+    left: 13rem;
+  }
+
+  .md\:right-52 {
+    right: 13rem;
+  }
+
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:gap-10 {
+    gap: 2.5rem;
   }
 
   .md\:text-base {
@@ -2940,9 +2960,25 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:gap-24 {
+    gap: 6rem;
+  }
+
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:gap-36 {
+    gap: 9rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:gap-44 {
+    gap: 11rem;
   }
 }
 

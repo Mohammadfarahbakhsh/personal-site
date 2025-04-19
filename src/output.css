@@ -2227,8 +2227,8 @@ video {
   padding-right: 1.25rem;
 }
 
-.pt-40 {
-  padding-top: 10rem;
+.pt-32 {
+  padding-top: 8rem;
 }
 
 .pt-5 {
@@ -2306,8 +2306,8 @@ video {
   line-height: 1;
 }
 
-.text-\[12px\] {
-  font-size: 12px;
+.text-\[10px\] {
+  font-size: 10px;
 }
 
 .text-base {
@@ -3062,6 +3062,11 @@ video {
   .\32xl\:gap-x-5 {
     -moz-column-gap: 1.25rem;
          column-gap: 1.25rem;
+  }
+
+  .\32xl\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 
   .\32xl\:text-xl {

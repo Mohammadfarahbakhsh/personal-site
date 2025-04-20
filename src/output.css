@@ -970,8 +970,8 @@ video {
   width: 1400px;
 }
 
-.w-\[800px\] {
-  width: 800px;
+.w-\[750px\] {
+  width: 750px;
 }
 
 .w-\[this-is\\\\\] {
@@ -2977,6 +2977,11 @@ video {
 
   .md\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .md\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 
   .md\:text-base {

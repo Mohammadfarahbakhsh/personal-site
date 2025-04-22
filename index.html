@@ -14,20 +14,20 @@
 <body class="bg-[#080808] font-Roboto overflow-x-hidden">
 
     <header class="bg-[#1B1B1B] h-[70px] 2xl:text-sm text-[10px] whitespace-nowrap  place-content-center place-self-center rounded-b-lg fixed z-10 2xl:left-20 2xl:right-20 xl:right-16 xl:left-16 sm:left-10 sm:right-10  left-5 right-5  top-0 ">
-        <div class="flex  md:gap-6 2xl:gap-32 xl:gap-20 lg:gap-10 text-[#9C9C9C] whitespace-nowrap font-bold items-center sm:mr-3 md:mr-5 lg:mr-10 xl:mr-10 2xl:mr-10">
-            <a href="#home" class="2xl:ml-20 mr-2 xl:ml-10 lg:ml-6 md:ml-5 ml-1 relative cursor-pointer after:absolute after:left-0 after:bottom-[-2px] after:w-[100%] after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+        <div x-show='open' class="flex md:gap-6 2xl:gap-32 xl:gap-20 lg:gap-10 text-[#9C9C9C] whitespace-nowrap font-bold items-center sm:mr-3 md:mr-5 lg:mr-10 xl:mr-10 2xl:mr-10">
+            <a href="#home" class="2xl:ml-20 mr-5 xl:ml-10 lg:ml-6 md:ml-5 ml-3 relative cursor-pointer after:absolute after:left-0 after:bottom-[-2px] after:w-[100%] after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
                 Home
             </a>
-            <a href="#about" class="relative mr-2 cursor-pointer after:absolute after:left-0 after:bottom-[-2px] after:w-[100%] after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+            <a href="#about" class="relative mr-5 cursor-pointer after:absolute after:left-0 after:bottom-[-2px] after:w-[100%] after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
                 About me
             </a>
-            <a href="#services" class="relative mr-2 cursor-pointer after:absolute after:left-0 after:bottom-[-2px] after:w-[100%] after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+            <a href="#services" class="relative mr-5 cursor-pointer after:absolute after:left-0 after:bottom-[-2px] after:w-[100%] after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
                 Services
             </a>
-            <a href="#work" class="relative mr-2 cursor-pointer after:absolute after:left-0 after:bottom-[-2px] after:w-[100%] after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+            <a href="#work" class="relative mr-5 cursor-pointer after:absolute after:left-0 after:bottom-[-2px] after:w-[100%] after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
                 Recent work
             </a>
-            <a href="#contact" class="relative mr-2 cursor-pointer after:absolute after:left-0 after:bottom-[-2px] after:w-[100%] after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
+            <a href="#contact" class="relative mr-5 cursor-pointer after:absolute after:left-0 after:bottom-[-2px] after:w-[100%] after:h-[2px] after:bg-[#3F8E00] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
                 Contact
             </a>
             <div class="flex 2xl:gap-x-5 gap-x-2 items-center">
@@ -36,25 +36,25 @@
 
                 <a href="https://github.com/Mohammadfarahbakhsh" target="_blank" class="fa-brands fa-github sm:text-base 2xl:text-xl cursor-pointer"></a>
 
-                <a href="" target="_blank" class="fa-brands fa-x-twitter sm:text-base 2xl:text-xl mr-1 cursor-pointer"></a>
+                <a href="" target="_blank" class="fa-brands fa-x-twitter sm:text-base 2xl:text-xl mr-3 cursor-pointer"></a>
             </div>
         </div>
     </header>
-    <main id="home" class="font-Roboto max-w-[1140px]  columns-md w-full px-5 pt-32 flex place-self-center min-h-screen justify-between flex-wrap  items-center text-white">
+    <main id="home" class="font-Roboto max-w-[1140px]  columns-md w-full px-5 pt-24 2xl:pt-32 flex place-self-center min-h-screen justify-between flex-wrap  items-center text-white">
         <div>
-            <h1 class="text-4xl font-bold ">MohammadKazem FarahBakhsh</h1>
-            <p class="max-w-lg mt-5 text-base text-[#9C9C9C]">I’m a creative and social person who enjoys teamwork and quickly understands new concepts. I’m working on programming, learning new languages, and improving my time management skills. Besides technology, I’m also interested in cooking and music, and I get energy from social interactions.</p>
+            <h1 class="2xl:text-4xl text-base font-bold 2xl:ml-0 ml-10">MohammadKazem FarahBakhsh</h1>
+            <p class="2xl:w-[512px] w-[390px] 2xl:ml-0 ml-10 mt-5 text-sm 2xl:text-base text-[#9C9C9C]">I’m a creative and social person who enjoys teamwork and quickly understands new concepts. I’m working on programming, learning new languages, and improving my time management skills. Besides technology, I’m also interested in cooking and music, and I get energy from social interactions.</p>
         </div>
-        <img class="2xl:w-[416px] md:w-60 w-60 rounded-full" src="../img/photo_2025-03-01 18.30.47.jpeg">
-        <button id="mybutton" class="text-white place-self-center mt-[-110px] 2xl:w-[307.89px] md:w-60 p-3 h-[63px]  rounded-sm bg-[#3F8E00] font-bold hover:opacity-75">Click For No Reason</button>
-        <div class="mt-20 w-[1400px] h-[60px] min-h-[80vh]">
-            <h6 class="text-white ml-[123px] block">worked with</h6>
-            <div class="flex justify-center gap-x-[50px] mt-10">
-                <button class="border border-gray-500 text-[#9C9C9C] whitespace-nowrap hover:opacity-50 rounded-lg font-bold px-6 py-3">Tailwind CSS </button>
-                <button class="border border-gray-500 text-[#9C9C9C] whitespace-nowrap hover:opacity-50 rounded-lg font-bold px-6 py-3">Web Development </button>
-                <button class="border border-gray-500 text-[#9C9C9C] whitespace-nowrap hover:opacity-50 rounded-lg font-bold px-6 py-3">Responsive Design</button>
-                <button class="border border-gray-500 text-[#9C9C9C] whitespace-nowrap hover:opacity-50 rounded-lg font-bold px-6 py-3">UI/UX Basics</button>
-                <button class="border border-gray-500 text-[#9C9C9C] whitespace-nowrap hover:opacity-50 rounded-lg font-bold px-6 py-3">JavaScript</button>
+        <img class="2xl:w-[416px] 2xl:mr-0 mr-3 2xl:mt-0 mt-7 2xl:ml-0 ml-10 md:w-60 w-52 rounded-full" src="../img/photo_2025-03-01 18.30.47.jpeg">
+        <button id="mybutton" class="text-white place-self-cente 2xl:mr-0 mr-7 2xl:text-base text-sm 2xl:mt-[-110px] 2xl:w-[307.89px] md:w-60  p-3 h-[50px]  rounded-sm bg-[#3F8E00] font-bold hover:opacity-75">Click For No Reason</button>
+        <div class="2xl:mt-20 mt-5 w-[1400px] h-[60px] min-h-[80vh]">
+            <h6 class="text-white 2xl:text-base text-sm ml-[123px] block">worked with :</h6>
+            <div class="flex 2xl:flex-nowrap flex-wrap justify-center gap-3 2xl:gap-x-[50px] 2xl:mt-10 mt-5">
+                <button class="border border-gray-500 text-[#9C9C9C] whitespace-nowrap hover:opacity-50 rounded-lg font-bold 2xl:text-base text-xs 2xl:px-6 px-2 2xl:py-3 py-1 2xl:ml-0 ml-8">Tailwind CSS </button>
+                <button class="border border-gray-500 text-[#9C9C9C] whitespace-nowrap hover:opacity-50 rounded-lg font-bold 2xl:text-base text-xs 2xl:px-6 px-2 2xl:py-3 py-1">Web Development </button>
+                <button class="border border-gray-500 text-[#9C9C9C] whitespace-nowrap hover:opacity-50 rounded-lg font-bold 2xl:text-base text-xs 2xl:px-6 px-2 2xl:py-3 py-1 2xl:mr-0 mr-1">Responsive Design</button>
+                <button class="border border-gray-500 text-[#9C9C9C] whitespace-nowrap hover:opacity-50 rounded-lg font-bold 2xl:text-base text-xs 2xl:px-6 px-2 2xl:py-3 py-1">UI/UX Basics</button>
+                <button class="border border-gray-500 text-[#9C9C9C] whitespace-nowrap hover:opacity-50 rounded-lg font-bold 2xl:text-base text-xs 2xl:px-6 px-2 2xl:py-3 py-1">JavaScript</button>
             </div>
         </div>
     </main>
@@ -67,8 +67,8 @@
             </div>
     </section>
     <section id="services" class="flex w-[1400px] flex-col sm:columns-1 place-content-center min-h-screen ">
-        <h1 class="text-white text-5xl relative -z-10 left-64 top-[-150px]">My Services</h1>
-        <div class="flex whitespace-nowrap relative left-36 gap-20 place-content-center font-2">
+        <h1 class="text-white text-5xl relative -z-10 2xl:left-64 md:left-40 left-10 top-[-150px]">My Services</h1>
+        <div class="flex whitespace-nowrap relative 2xl:left-36 md:left-16 left-5 gap-20 place-content-center font-2">
             <div class="text-white w-80 bg-[#1B1B1B] p-10 rounded-lg hover:shadow-xl hover:shadow-[#3F8E00] transition duration-300 ease-in-out">
                 <svg class="fill-white w-10 h-10 mb-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M372.2 52c0 20.9-12.4 39-30.2 47.2L448 192l104.4-20.9c-5.3-7.7-8.4-17.1-8.4-27.1c0-26.5 21.5-48 48-48s48 21.5 48 48c0 26-20.6 47.1-46.4 48L481 442.3c-10.3 23-33.2 37.7-58.4 37.7l-205.2 0c-25.2 0-48-14.8-58.4-37.7L46.4 192C20.6 191.1 0 170 0 144c0-26.5 21.5-48 48-48s48 21.5 48 48c0 10.1-3.1 19.4-8.4 27.1L192 192 298.1 99.1c-17.7-8.3-30-26.3-30-47.1c0-28.7 23.3-52 52-52s52 23.3 52 52z"/></svg>
                 <h1 class=" font-bold mb-5">

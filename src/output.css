@@ -3041,6 +3041,10 @@ video {
     margin-left: 5rem;
   }
 
+  .md\:ml-\[255px\] {
+    margin-left: 255px;
+  }
+
   .md\:mt-10 {
     margin-top: 2.5rem;
   }
@@ -3053,8 +3057,8 @@ video {
     width: 50%;
   }
 
-  .md\:w-\[80\%\] {
-    width: 80%;
+  .md\:w-\[65\%\] {
+    width: 65%;
   }
 
   .md\:flex-row {
@@ -3159,10 +3163,6 @@ video {
     margin-left: 2rem;
   }
 
-  .\32xl\:ml-80 {
-    margin-left: 20rem;
-  }
-
   .\32xl\:ml-\[305px\] {
     margin-left: 305px;
   }
@@ -3261,6 +3261,10 @@ video {
 
   .\32xl\:w-\[75\%\] {
     width: 75%;
+  }
+
+  .\32xl\:w-\[80\%\] {
+    width: 80%;
   }
 
   .\32xl\:flex-nowrap {

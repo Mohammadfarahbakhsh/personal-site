@@ -3125,8 +3125,8 @@ video {
     margin-left: 7rem;
   }
 
-  .xl\:mt-80 {
-    margin-top: 20rem;
+  .xl\:ml-64 {
+    margin-left: 16rem;
   }
 }
 
@@ -3155,12 +3155,12 @@ video {
     margin-left: 10rem;
   }
 
-  .\32xl\:ml-64 {
-    margin-left: 16rem;
-  }
-
   .\32xl\:ml-8 {
     margin-left: 2rem;
+  }
+
+  .\32xl\:ml-80 {
+    margin-left: 20rem;
   }
 
   .\32xl\:ml-\[305px\] {
@@ -3199,8 +3199,8 @@ video {
     margin-top: 15rem;
   }
 
-  .\32xl\:mt-96 {
-    margin-top: 24rem;
+  .\32xl\:mt-80 {
+    margin-top: 20rem;
   }
 
   .\32xl\:mt-\[-110px\] {
